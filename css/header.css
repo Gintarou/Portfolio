@@ -11,9 +11,10 @@ header {
 }
 
 .ham {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   transition: 0.2s;
+  background: pink;
 }
 
 .ham:hover {
@@ -23,9 +24,9 @@ header {
 
 .ham_line {
   position: absolute;
-  right: 10px;
-  width: 30px;
-  height: 2px;
+  right: 15px;
+  width: 70px;
+  height: 4px;
   background: #333;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -33,22 +34,22 @@ header {
 }
 
 .ham_line1 {
-  top: 12px;
+  top: 21px;
 }
 
 .ham_line2 {
-  top: 25px;
+  top: 46px;
 }
 
 .ham_line3 {
-  top: 38px;
+  top: 71px;
 }
 
 .clicked .ham_line1 {
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
-  top: 25px;
+  top: 46px;
 }
 
 .clicked .ham_line2 {
@@ -57,7 +58,7 @@ header {
 
 .clicked .ham_line3 {
   transform: rotate(-45deg);
-  top: 25px;
+  top: 46px;
 }
 
 .ham_menu {
@@ -68,8 +69,9 @@ header {
 
 .ham_menu a {
   color: black;
-  line-height: 60px;
+  line-height: 100px;
   transition: 0.2s;
+  font-size: 30px;
 }
 
 .ham_menu a:hover {
