@@ -1,6 +1,8 @@
 Barba.Pjax.init();
 Barba.Prefetch.init();
 
+window.location.href = "./index.html";
+
 var FadeTransition = Barba.BaseTransition.extend({
   start: function() {
 
