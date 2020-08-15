@@ -1,5 +1,3 @@
-barba.use(barbaPrefetch);
-
 // 同じurlの場合、ページ遷移をさせない
 const eventDelete = e => {
   if (e.currentTarget.href === window.location.href) {
