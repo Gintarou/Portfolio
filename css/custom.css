@@ -10,8 +10,8 @@
 }
 
 .home_name_rotate {
-  left: 50% !important;
-  transform: rotate(90deg) !important;
+  left: 60% !important;
+  /* transform: rotate(90deg) !important; */
 }
 
 @media(min-width: 600px) {

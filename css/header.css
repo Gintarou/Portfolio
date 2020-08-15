@@ -67,7 +67,7 @@ header {
 
 .ham_menu a {
   color: black;
-  line-height: 100px;
+  line-height: 80px;
   transition: 0.2s;
   font-size: 30px;
 }
