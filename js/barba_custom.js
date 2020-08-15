@@ -1,6 +1,5 @@
-Barba.Pjax.init();
-
 window.location.href = "./index.html";
+Barba.Pjax.init();
 
 var FadeTransition = Barba.BaseTransition.extend({
   start: function() {
