@@ -1,0 +1,25 @@
+#home_name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+  font-size: 3em;
+  font-family: serif;
+  letter-spacing: 20px;
+}
+
+.home_name_rotate {
+  left: 50% !important;
+  transform: rotate(90deg) !important;
+}
+
+@media(min-width: 600px) {
+  #home_name {
+    font-size: 4em;
+  }
+}
+
+@media(min-width: 900px) {
+  
+}
