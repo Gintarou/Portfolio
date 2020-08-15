@@ -13,7 +13,7 @@
 }
 
 .mask.active{
-  z-index: 9999;
+  z-index: 50;
   opacity: 1;
   pointer-events: auto;
 }
