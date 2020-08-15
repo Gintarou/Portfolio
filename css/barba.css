@@ -7,9 +7,8 @@
   visibility: hidden;
   width: 100%;
   height: 100%;
-  transition: transform 1s ease;
+  transition: transform 0.5s ease;
   transition-property: transform, visibility;
-  transform-origin: right;
   pointer-events: none;
   background-color: white;
 }
