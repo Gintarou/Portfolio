@@ -14,6 +14,7 @@ header {
   width: 100px;
   height: 100px;
   transition: 0.2s;
+  position: fixed;
 }
 
 .ham:hover {
@@ -60,9 +61,8 @@ header {
 }
 
 .ham_menu {
-  position: fixed;
   transition: all 0.3s;
-  padding-top: 20px;
+  padding-top: 120px;
 }
 
 .ham_menu a {
