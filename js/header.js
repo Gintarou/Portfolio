@@ -8,22 +8,13 @@ ham.addEventListener('click', function() {
   ham_menu_wrapper.classList.toggle('clicked');
   $('#ham_menu_wrapper').fadeToggle();
   home_name.classList.toggle('home_name_rotate');
-
-  // if( $('#ham_menu_wrapper').hasClass('clicked') ) {
-  //   $('#ham_menu_wrapper').fadeIn();
-  //   home_name.classList.add('home_name_rotate');
-  // } else {
-  //   $('#ham_menu_wrapper').fadeOut();
-  //   home_name.classList.remove('home_name_rotate');
-  // }
-
-  for(let i = 0; i < ham_link.length; i++) {
-    ham_link[i].addEventListener('click', function() {
-      ham.classList.remove('clicked');
-      ham_menu_wrapper.classList.remove('clicked');
-      $('#ham_menu_wrapper').fadeOut();
-      home_name.classList.remove('home_name_rotate');
-    });
-  }
-
 });
+
+for(let i = 0; i < ham_link.length; i++) {
+  ham_link[i].addEventListener('click', function() {
+    ham.classList.remove('clicked');
+    ham_menu_wrapper.classList.remove('clicked');
+    $('#ham_menu_wrapper').fadeOut();
+    home_name.classList.remove('home_name_rotate');
+  });
+}
