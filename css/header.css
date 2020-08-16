@@ -81,6 +81,7 @@ nav ul{
   flex-flow: column;
   height: 350px;
   justify-content: space-around;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 #ham_menu_wrapper {
