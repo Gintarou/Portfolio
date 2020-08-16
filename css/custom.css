@@ -25,6 +25,7 @@
 @media screen and (min-width: 900px) {
   .home_name_rotate {
     left: 48% !important;
+    transform: rotate(90deg) !important;
   }
 
   #home_name {
