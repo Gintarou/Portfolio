@@ -79,7 +79,7 @@ header {
 nav ul{
   display: flex;
   flex-flow: column;
-  height: 200px;
+  height: 350px;
   justify-content: space-around;
 }
 
