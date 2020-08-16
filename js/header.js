@@ -4,17 +4,17 @@ var ham_link = document.getElementsByClassName('ham_link');
 var home_name = document.getElementById('home_name');
 
 ham.addEventListener('click', function() {
-  ham.classList.toggle('clicked');
-  ham_menu_wrapper.classList.toggle('clicked');
-
   for(let i = 0; i < ham_link.length; i++) {
     ham_link[i].addEventListener('click', function() {
       ham.classList.remove('clicked');
       ham_menu_wrapper.classList.remove('clicked');
       $('#ham_menu_wrapper').fadeOut();
-      // home_name.classList.remove('home_name_rotate');
+      home_name.classList.remove('home_name_rotate');
     });
   }
+
+  ham.classList.toggle('clicked');
+  ham_menu_wrapper.classList.toggle('clicked');
 
   if( $('#ham_menu_wrapper').hasClass('clicked') ) {
     $('#ham_menu_wrapper').fadeIn();
