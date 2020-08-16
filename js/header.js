@@ -9,10 +9,10 @@ ham.addEventListener('click', function() {
 
   if( $('#ham_menu_wrapper').hasClass('clicked') ) {
     $('#ham_menu_wrapper').fadeIn();
-    home_name.classList.add('home_name_rotate');
+    home_name.classList.toggle('home_name_rotate');
   } else {
     $('#ham_menu_wrapper').fadeOut();
-    home_name.classList.remove('home_name_rotate');
+    home_name.classList.toggle('home_name_rotate');
   }
 
 });
