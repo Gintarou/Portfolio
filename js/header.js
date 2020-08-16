@@ -7,9 +7,11 @@ ham.addEventListener('click', function() {
   ham.classList.toggle('clicked');
   ham_menu_wrapper.classList.toggle('clicked');
 
-  if( $('#ham_menu_wrapper').hasClass('clicked') && $('#home_name').length ) {
+  if( $('#ham_menu_wrapper').hasClass('clicked') ) {
     $('#ham_menu_wrapper').fadeIn();
-    home_name.classList.add('home_name_rotate');
+    if( $('#home_name').length ) {
+      home_name.classList.add('home_name_rotate');      
+    }
   } else {
     $('#ham_menu_wrapper').fadeOut();
     home_name.classList.remove('home_name_rotate');
