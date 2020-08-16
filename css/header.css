@@ -70,6 +70,7 @@ header {
   line-height: 80px;
   transition: 0.2s;
   font-size: 30px;
+  padding-left: 0;
 }
 
 .ham_menu a:hover {
@@ -94,5 +95,42 @@ header {
 
 /* large screen */
 @media (min-width: 960px) {
+  header {
+    top: 100px;
+    left: 0;
+  }
 
+  .ham {
+    width: 60px;
+    height: 60px;
+  }
+
+  .ham_line {
+    position: absolute;
+    right: 7px;
+    width: 46px;
+    height: 2px;
+  }
+
+  .ham_line1 {
+    top: 14px;
+  }
+
+  .ham_line2 {
+    top: 30px;
+  }
+
+  .ham_line3 {
+    top: 46px;
+  }
+
+  .clicked .ham_line1, .clicked .ham_line3 {
+    top: 30px;
+  }
+
+  .ham_menu a {
+    color: black;
+    padding-left: 50px;
+    font-size: 24px;
+  }
 }
