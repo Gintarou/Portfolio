@@ -1,7 +1,7 @@
 header {
   position: absolute;
-  top: 60px;
-  left: 30px;
+  top: 50px;
+  left: 20px;
   z-index: 100;
   font-weight: lighter;
 }
@@ -11,8 +11,8 @@ header {
 }
 
 .ham {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   transition: 0.2s;
   position: fixed;
 }
@@ -23,9 +23,9 @@ header {
 
 .ham_line {
   position: absolute;
-  right: 15px;
-  width: 70px;
-  height: 4px;
+  right: 7px;
+  width: 46px;
+  height: 2px;
   background: #333;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -33,22 +33,22 @@ header {
 }
 
 .ham_line1 {
-  top: 21px;
+  top: 14px;
 }
 
 .ham_line2 {
-  top: 46px;
+  top: 30px;
 }
 
 .ham_line3 {
-  top: 71px;
+  top: 46px;
 }
 
 .clicked .ham_line1 {
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
-  top: 46px;
+  top: 30px;
 }
 
 .clicked .ham_line2 {
@@ -57,7 +57,7 @@ header {
 
 .clicked .ham_line3 {
   transform: rotate(-45deg);
-  top: 46px;
+  top: 30px;
 }
 
 .ham_menu {
@@ -69,7 +69,7 @@ header {
   color: black;
   line-height: 80px;
   transition: 0.2s;
-  font-size: 30px;
+  font-size: 24px;
   padding-left: 0;
 }
 
@@ -94,38 +94,11 @@ header {
 }
 
 /* large screen */
-@media (min-width: 960px) {
+@media screen and (min-width: 960px) {
+
   header {
     top: 100px;
     left: 0;
-  }
-
-  .ham {
-    width: 60px;
-    height: 60px;
-  }
-
-  .ham_line {
-    position: absolute;
-    right: 7px;
-    width: 46px;
-    height: 2px;
-  }
-
-  .ham_line1 {
-    top: 14px;
-  }
-
-  .ham_line2 {
-    top: 30px;
-  }
-
-  .ham_line3 {
-    top: 46px;
-  }
-
-  .clicked .ham_line1, .clicked .ham_line3 {
-    top: 30px;
   }
 
   .ham_menu a {

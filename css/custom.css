@@ -10,16 +10,18 @@
 }
 
 .home_name_rotate {
-  left: 60% !important;
-  /* transform: rotate(90deg) !important; */
+  left: 40% !important;
+  transform: rotate(90deg) !important;
 }
 
-@media(min-width: 600px) {
+@media screen and(min-width: 600px) {
   #home_name {
     font-size: 4em;
   }
 }
 
-@media(min-width: 900px) {
-
+@media screen and (min-width: 900px) {
+  .home_name_rotate {
+    left: 48% !important;
+  }
 }
