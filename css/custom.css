@@ -16,7 +16,9 @@
 
 @media screen and(min-width: 600px) {
   #home_name {
-    font-size: 4em;
+    font-size: 3.5em;
+    top: 50%;
+    left: 50%;
   }
 }
 
@@ -24,4 +26,11 @@
   .home_name_rotate {
     left: 48% !important;
   }
+
+  #home_name {
+    font-size: 3.5em;
+    top: 50%;
+    left: 50%;
+  }
+
 }

@@ -67,7 +67,6 @@ header {
 
 .ham_menu a {
   color: black;
-  line-height: 80px;
   transition: 0.2s;
   font-size: 24px;
   padding-left: 0;
@@ -77,6 +76,13 @@ header {
   opacity: 0.5;
 }
 
+nav ul{
+  display: flex;
+  flex-flow: column;
+  height: 500px;
+  justify-content: space-around;
+}
+
 #ham_menu_wrapper {
   display: none;
 }
@@ -84,8 +90,6 @@ header {
 .ham_menu ul li {
   text-align: center;
 }
-
-/* small screen */
 
 
 /* midium screen */
@@ -105,11 +109,14 @@ header {
     color: black;
     padding-left: 50px;
     font-size: 24px;
-    line-height: 100px;
   }
 
   .ham_menu {
     padding-top: 120px;
   }
 
+  nav ul{
+    height: 400px;
+    justify-content: space-between;
+  }
 }
