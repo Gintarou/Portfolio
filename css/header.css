@@ -85,6 +85,7 @@ nav ul{
   display: flex;
   flex-flow: column;
   height: 70vh;
+  padding-top: 15px;
   justify-content: space-around;
 }
 
