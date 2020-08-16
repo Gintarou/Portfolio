@@ -84,7 +84,7 @@ nav ul{
   background: white;
   display: flex;
   flex-flow: column;
-  height: 350px;
+  height: 70vh;
   justify-content: space-around;
 }
 
