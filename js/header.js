@@ -9,12 +9,12 @@ ham.addEventListener('click', function() {
 
   if( $('#ham_menu_wrapper').hasClass('clicked') ) {
     $('#ham_menu_wrapper').fadeIn();
-    if( $('#home_name').length ) {
-      home_name.classList.add('home_name_rotate');      
-    }
+    // if( $('#home_name').length ) {
+    //   home_name.classList.add('home_name_rotate');
+    // }
   } else {
     $('#ham_menu_wrapper').fadeOut();
-    home_name.classList.remove('home_name_rotate');
+    // home_name.classList.remove('home_name_rotate');
   }
 
 });
@@ -25,8 +25,8 @@ for(let i = 0; i < ham_link.length; i++) {
     ham_menu_wrapper.classList.remove('clicked');
     $('#ham_menu_wrapper').fadeOut();
 
-    if(　$('#home_name').length　)　{
-      home_name.classList.remove('home_name_rotate');
-    }
+    // if(　$('#home_name').length　)　{
+    //   home_name.classList.remove('home_name_rotate');
+    // }
   });
 }
