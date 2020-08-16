@@ -9,6 +9,7 @@ ham.addEventListener('click', function() {
   for(let i = 0; i < ham_link.length; i++) {
     ham_link[i].addEventListener('click', function() {
       ham.classList.remove('clicked');
+      ham_menu_wrapper.classList.remove('clicked');
     });
   }
 
