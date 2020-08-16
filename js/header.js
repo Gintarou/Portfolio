@@ -10,6 +10,8 @@ ham.addEventListener('click', function() {
     ham_link[i].addEventListener('click', function() {
       ham.classList.remove('clicked');
       ham_menu_wrapper.classList.remove('clicked');
+      $('#ham_menu_wrapper').fadeOut();
+      document.getElementById('home_name').classList.remove('home_name_rotate');
     });
   }
 
