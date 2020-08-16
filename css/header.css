@@ -85,8 +85,8 @@ nav ul{
   display: flex;
   flex-flow: column;
   height: 70vh;
-  padding-top: 15px;
   justify-content: space-around;
+  margin-top: 20px;
 }
 
 #ham_menu_wrapper {
@@ -131,5 +131,6 @@ nav ul{
     height: 400px;
     width: auto;
     justify-content: space-between;
+    margin-top: 0;
   }
 }
