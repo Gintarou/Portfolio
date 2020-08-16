@@ -12,15 +12,15 @@ ham.addEventListener('click', function() {
       home_name.classList.toggle('home_name_rotate');
     }
 });
-
-for(let i = 0; i < ham_link.length; i++) {
-  ham_link[i].addEventListener('click', function() {
-    ham.classList.remove('clicked');
-    ham_menu_wrapper.classList.remove('clicked');
-    $('#ham_menu_wrapper').fadeOut();
-
-    if(　$('#home_name').length　)　{
-      home_name.classList.remove('home_name_rotate');
-    }
-  });
-}
+// 
+// for(let i = 0; i < ham_link.length; i++) {
+//   ham_link[i].addEventListener('click', function() {
+//     ham.classList.remove('clicked');
+//     ham_menu_wrapper.classList.remove('clicked');
+//     $('#ham_menu_wrapper').fadeOut();
+//
+//     if(　$('#home_name').length　)　{
+//       home_name.classList.remove('home_name_rotate');
+//     }
+//   });
+// }
