@@ -62,7 +62,7 @@ header {
 
 .ham_menu {
   transition: all 0.3s;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .ham_menu a {
@@ -106,4 +106,9 @@ header {
     padding-left: 50px;
     font-size: 24px;
   }
+
+  .ham_menu {
+    padding-top: 120px;
+  }
+
 }
