@@ -8,8 +8,11 @@ ham.addEventListener('click', function() {
   ham_menu_wrapper.classList.toggle('clicked');
   $('#ham_menu_wrapper').fadeToggle();
 
-  if(　$('#home_name').length　)　{
-    home_name.classList.toggle('home_name_rotate');
+  while(true) {
+    if(　$('#home_name').length　)　{
+      home_name.classList.toggle('home_name_rotate');
+    }
+
   }
 });
 
