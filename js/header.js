@@ -12,7 +12,7 @@ ham.addEventListener('click', function() {
       ham.classList.remove('clicked');
       ham_menu_wrapper.classList.remove('clicked');
       $('#ham_menu_wrapper').fadeOut();
-      home_name.classList.remove('home_name_rotate');
+      // home_name.classList.remove('home_name_rotate');
     });
   }
 
