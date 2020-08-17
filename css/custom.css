@@ -22,6 +22,10 @@
   text-align: left;
 }
 
+#profile {
+  width: 80%;
+}
+
 #about {
   padding: 130px 0 0;
 }
@@ -104,6 +108,10 @@
 
   #profile_heading2 {
     padding: 70px 0 25px;
+  }
+
+  #profile {
+    width: 810px;
   }
 
   #profile_ul > li {
