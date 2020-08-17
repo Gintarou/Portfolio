@@ -16,15 +16,15 @@
 
 .page_container {
   margin: 0 auto !important;
-  padding: 100px 0 0;
+  padding: 90px 0 0;
   width: 95%;
   text-align: left;
 }
 
 .page_container p {
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 2.5px;
-  line-height: 30px;
+  line-height: 26px;
   padding: 8px 0;
 }
 
