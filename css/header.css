@@ -15,8 +15,8 @@ header {
   height: 48px;
   transition: 0.2s;
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 10px;
+  left: 10px;
 }
 
 .ham:hover {
