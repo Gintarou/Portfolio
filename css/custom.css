@@ -22,11 +22,19 @@
   text-align: left;
 }
 
+#about {
+  padding: 130px 0 0;
+}
+
 .page_container p {
   font-size: 14px;
   letter-spacing: 2.5px;
   line-height: 26px;
   padding: 8px 0;
+}
+
+#about > p {
+  line-height: 32px;
 }
 
 #profile_name {
@@ -84,6 +92,10 @@
     text-align: left;
   }
 
+  #about {
+    padding: 260px 0 0 180px;
+  }
+
   .page_container p {
     line-height: 32px;
     padding: 12px 0;
@@ -100,6 +112,10 @@
 
   #profile_ul {
     display: flex;
+  }
+
+  #about > p {
+    line-height: 40px;
   }
 
 }
