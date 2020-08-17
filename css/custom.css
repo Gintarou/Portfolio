@@ -94,11 +94,11 @@
     padding: 70px 0 25px;
   }
 
-  li {
+  .page_container li {
     padding: 20px 20px 20px 30px;
   }
 
-  ul {
+  .page_container ul {
     display: flex;
   }
 
