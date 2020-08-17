@@ -4,7 +4,7 @@
   left: 52%;
   transform: translate(-50%, -50%);
   transition: 0.3s;
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: serif;
   letter-spacing: 20px;
 }
@@ -15,7 +15,8 @@
 }
 
 .page_container {
-  margin: 100px auto 0 !important;
+  margin: 0 auto !important;
+  padding: 100px 0 0;
   width: 95%;
   text-align: left;
 }
@@ -70,7 +71,7 @@ ul {
   }
 
   #home_name {
-    font-size: 3.5em;
+    font-size: 3.2em;
     top: 50%;
     left: 50%;
   }
@@ -78,7 +79,7 @@ ul {
   .page_container {
     width: 810px;
     margin: 0 auto !important;
-    padding: 200px 0 0 150px;
+    padding: 200px 0 0 180px;
     text-align: left;
   }
 
