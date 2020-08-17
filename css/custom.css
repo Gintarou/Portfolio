@@ -49,12 +49,12 @@
   letter-spacing: 3.5px;
 }
 
-#profile_ul > li {
-  padding: 12px 0 0 30px;
-}
-
 #profile_ul {
   display: block;
+}
+
+#profile_ul > li {
+  padding: 12px 0 0 30px !important;
 }
 
 @media screen and(min-width: 600px) {
