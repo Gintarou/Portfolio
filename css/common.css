@@ -8,6 +8,15 @@ main {
   text-align: center;
 }
 
+a {
+  transition: 0.2s;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+
 .main_screen {
   width: 100vw;
   position: absolute;

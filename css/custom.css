@@ -69,6 +69,29 @@
   padding: 12px 0 0 30px !important;
 }
 
+#gmail {
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+#contact {
+  padding: 180px 0 0;
+  text-align: center;
+}
+
+#gmail_txt {
+  line-height: 0;
+  margin: 20px 0 50px;
+}
+
+#contact_link {
+  display: block;
+}
+
+#contact_link p {
+  margin: 20px 0;
+}
+
 @media screen and(min-width: 600px) {
   #home_name {
     font-size: 3.5em;
@@ -124,6 +147,24 @@
 
   #about > p {
     line-height: 40px;
+  }
+
+  #contact {
+    padding: 280px 0 0 240px;
+    text-align: left;
+  }
+
+  #contact_link {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #contact_link a {
+    padding: 0 50px 0 0;
+  }
+
+  #contact_link p {
+    margin: 0;
   }
 
 }
