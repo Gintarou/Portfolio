@@ -2,7 +2,11 @@
   position: absolute;
   top: 50%;
   left: 52%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   font-size: 2.5em;
   font-family: serif;
@@ -12,7 +16,9 @@
 
 .home_name_rotate {
   left: 40% !important;
-  transform: rotate(90deg) !important;
+  -webkit-transform: rotate(90deg) !important;
+      -ms-transform: rotate(90deg) !important;
+          transform: rotate(90deg) !important;
 }
 
 .page_container {
@@ -103,7 +109,9 @@
 @media screen and (min-width: 900px) {
   .home_name_rotate {
     left: 48% !important;
-    transform: rotate(90deg) !important;
+    -webkit-transform: rotate(90deg) !important;
+        -ms-transform: rotate(90deg) !important;
+            transform: rotate(90deg) !important;
   }
 
   #home_name {
@@ -142,6 +150,8 @@
   }
 
   #profile_ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
@@ -155,8 +165,12 @@
   }
 
   #contact_link {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 
   #contact_link a {
