@@ -48,11 +48,11 @@
   letter-spacing: 3.5px;
 }
 
-li {
+.page_container li {
   padding: 12px 0 0 30px;
 }
 
-ul {
+.page_container ul {
   display: block;
 }
 
