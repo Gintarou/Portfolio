@@ -79,7 +79,7 @@ header {
   opacity: 0.5;
 }
 
-nav ul{
+#header_ul{
   width: 100vw;
   background: white;
   display: flex;
@@ -121,17 +121,16 @@ nav ul{
   .ham_menu a {
     color: black;
     font-size: 21px;
-    width:
+    line-height: 100px;
   }
 
   .ham_menu {
-    padding-top: 120px;
+    margin-top: 180px;
   }
 
-  nav ul{
+  #header_ul{
     height: 400px;
     width: auto;
-    justify-content: space-between;
     margin-top: 0;
     background: rgba(0,0,0,0);
   }

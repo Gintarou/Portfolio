@@ -49,11 +49,11 @@
   letter-spacing: 3.5px;
 }
 
-.page_container li {
+#profile_ul > li {
   padding: 12px 0 0 30px;
 }
 
-.page_container ul {
+#profile_ul {
   display: block;
 }
 
@@ -94,11 +94,11 @@
     padding: 70px 0 25px;
   }
 
-  .page_container li {
+  #profile_ul > li {
     padding: 20px 20px 20px 30px;
   }
 
-  .page_container ul {
+  #profile_ul {
     display: flex;
   }
 
